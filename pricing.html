@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membership Pricing | VitalFit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section class="page-hero">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80&auto=format&fit=crop" alt="" />
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Pricing</div>
+        <span class="eyebrow">Membership</span>
+        <h1 class="display">Simple, <span class="accent">Honest Pricing</span></h1>
+        <p>No hidden fees. No long contracts. Choose the plan that fits your goals and cancel anytime.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="billing-toggle">
+          <span>Monthly</span>
+          <button class="switch" id="billing-switch" aria-label="Toggle yearly billing"></button>
+          <span>Yearly</span>
+          <span class="save-badge">Save 20%</span>
+        </div>
+
+        <div class="grid-3" style="align-items:stretch">
+          <div class="price-card reveal">
+            <h3>Basic</h3>
+            <p class="muted">Perfect for getting started.</p>
+            <div class="price">$<span data-monthly="29" data-yearly="23">29</span> <small class="period">/month</small></div>
+            <ul class="check-list">
+              <li>Full gym floor access</li>
+              <li>Locker &amp; shower facilities</li>
+              <li>Fitness assessment</li>
+              <li>VitalFit tracking app</li>
+            </ul>
+            <a href="contact.html" class="btn btn-outline">Choose Basic</a>
+          </div>
+
+          <div class="price-card featured reveal">
+            <span class="popular">Most Popular</span>
+            <h3>Pro</h3>
+            <p class="muted">Our best value for steady results.</p>
+            <div class="price">$<span data-monthly="59" data-yearly="47">59</span> <small class="period">/month</small></div>
+            <ul class="check-list">
+              <li>Everything in Basic</li>
+              <li>Unlimited group classes</li>
+              <li>Personalized workout plan</li>
+              <li>Monthly progress review</li>
+              <li>Nutrition guide</li>
+            </ul>
+            <a href="contact.html" class="btn btn-teal">Choose Pro <span class="arrow">→</span></a>
+          </div>
+
+          <div class="price-card reveal">
+            <h3>Elite</h3>
+            <p class="muted">The full VitalFit experience.</p>
+            <div class="price">$<span data-monthly="99" data-yearly="79">99</span> <small class="period">/month</small></div>
+            <ul class="check-list">
+              <li>Everything in Pro</li>
+              <li>4 personal training sessions/mo</li>
+              <li>Custom meal plan</li>
+              <li>Recovery &amp; sauna access</li>
+              <li>Priority class booking</li>
+            </ul>
+            <a href="contact.html" class="btn btn-outline">Choose Elite</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="display">Questions? <span class="accent">Answers.</span></h2>
+        </div>
+        <div class="faq">
+          <div class="faq-item reveal">
+            <button class="faq-q">Is there a free trial?</button>
+            <div class="faq-a"><p>Yes! Every new member gets a free 7-day trial with full access to the gym and group classes.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q">Can I cancel anytime?</button>
+            <div class="faq-a"><p>Absolutely. Monthly plans can be cancelled anytime with no fees. Yearly plans can be cancelled with a prorated refund.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q">Do I need experience to join?</button>
+            <div class="faq-a"><p>Not at all. Our coaches work with all levels, from complete beginners to competitive athletes.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q">Can I freeze my membership?</button>
+            <div class="faq-a"><p>Yes, you can freeze your membership for up to 3 months per year for travel, injury or any other reason.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

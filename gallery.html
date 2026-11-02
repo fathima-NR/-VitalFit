@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Velora Salon &amp; Spa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="page-banner">
+    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1600&q=80" alt="" />
+    <div class="container">
+      <span class="eyebrow">Our Work</span>
+      <h1>The <span>Gallery</span></h1>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Gallery</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Real results</span>
+        <h2 class="title">Looks We <span>Love</span></h2>
+        <p class="lead">A peek at recent transformations by our team. Click any photo to enlarge.</p>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="hair">Hair</button>
+        <button class="tab" data-filter="makeup">Makeup</button>
+        <button class="tab" data-filter="nails">Nails</button>
+        <button class="tab" data-filter="spa">Spa</button>
+      </div>
+
+      <div class="gallery">
+        <figure data-category="hair"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700&q=80" alt="Hair styling" /><figcaption>Hair</figcaption></figure>
+        <figure data-category="makeup"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=700&q=80" alt="Makeup" /><figcaption>Makeup</figcaption></figure>
+        <figure data-category="nails"><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=700&q=80" alt="Nails" /><figcaption>Nails</figcaption></figure>
+        <figure data-category="spa"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=700&q=80" alt="Massage" /><figcaption>Spa</figcaption></figure>
+        <figure data-category="hair"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=700&q=80" alt="Haircut" /><figcaption>Hair</figcaption></figure>
+        <figure data-category="spa"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=700&q=80" alt="Facial" /><figcaption>Spa</figcaption></figure>
+        <figure data-category="makeup"><img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=700&q=80" alt="Bridal makeup" /><figcaption>Makeup</figcaption></figure>
+        <figure data-category="hair"><img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=700&q=80" alt="Cut" /><figcaption>Hair</figcaption></figure>
+        <figure data-category="nails"><img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=700&q=80" alt="Nail art" /><figcaption>Nails</figcaption></figure>
+        <figure data-category="hair"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=700&q=80" alt="Barber" /><figcaption>Hair</figcaption></figure>
+        <figure data-category="spa"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=700&q=80" alt="Salon interior" /><figcaption>Spa</figcaption></figure>
+        <figure data-category="hair"><img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=700&q=80" alt="Styling" /><figcaption>Hair</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;padding-bottom:0">
+    <div class="container">
+      <div class="cta reveal">
+        <div><h2>Love What <span>You See?</span></h2><p>Your transformation could be next.</p></div>
+        <a href="contact.html#book" class="btn btn-teal">Book Now <span class="arrow">&#8594;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox"><button aria-label="Close">&times;</button><img src="" alt="Enlarged photo" /></div>
+
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
